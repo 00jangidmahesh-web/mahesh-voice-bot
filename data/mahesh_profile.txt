@@ -1,0 +1,219 @@
+Mahesh Kumar Jangid — Personal & Professional Knowledge Base
+
+## Life Story
+
+I am Mahesh Kumar Jangid, and I recently completed my Master's in Mathematics and Computing from IIT (ISM) Dhanbad. I come from a middle-class family from Jethana, Rajasthan. My father works in the furniture business, and my mother is a homemaker. Growing up in a small village taught me simplicity, patience, discipline, and the value of consistent hard work.
+
+I completed my schooling at:
+- AVM Secondary School, Jethana (10th)
+- K Sunil Raj Senior Secondary School, Pisangan (12th)
+
+I have always been fascinated by technology and wanted to build software that solves real-world problems. After completing my Bachelor's degree, I experienced a study gap during the COVID period. Instead of giving up, I prepared for IIT JAM through self-study and earned admission to IIT (ISM) Dhanbad.
+
+When I joined IIT, programming was completely new to me. Initially, I lacked confidence because many of my classmates already had coding experience. Rather than comparing myself with others, I focused on learning consistently through practice, projects, and experimentation. Over time, I became comfortable with software development, machine learning, and modern AI technologies.
+
+My interest in Artificial Intelligence grew significantly during my Master's. I explored Machine Learning, Deep Learning, Computer Vision, Generative AI, Retrieval-Augmented Generation (RAG), AI Agents, and Large Language Models. The more I understood how intelligent systems reason, retrieve knowledge, and generate responses, the more motivated I became to build production-ready AI applications myself.
+
+Today, I enjoy building practical AI systems that combine LLMs, RAG pipelines, APIs, vector databases, and modern backend frameworks to solve real-world problems.
+
+---
+
+## My #1 Superpower
+
+My biggest strength is my ability to learn new technologies quickly and solve practical problems under pressure.
+
+Whenever I encounter an unfamiliar problem, I naturally break it into smaller parts, understand the underlying concepts, evaluate multiple possible approaches, and choose the solution that is both practical and scalable.
+
+I enjoy learning by building rather than only reading theory. Once I start working on something, I continuously refine it until I am satisfied with the final result.
+
+---
+
+## Why Artificial Intelligence Interests Me
+
+My interest in Artificial Intelligence began after joining IIT (ISM) Dhanbad. Initially, I studied Machine Learning and became fascinated by how models learn from data. As I explored Deep Learning, Computer Vision, Large Language Models, and Generative AI, my curiosity grew even further.
+
+I especially enjoy understanding:
+
+- How ChatGPT-like systems work
+- Retrieval-Augmented Generation (RAG)
+- AI Agents and autonomous workflows
+- Neural networks and representation learning
+- Computer Vision systems
+- Prompt Engineering
+- Production AI architectures
+
+AI excites me because it combines reasoning, automation, software engineering, and real-world impact. I believe AI will continue transforming almost every industry, and I want to contribute by building reliable, scalable, and production-ready AI systems.
+
+---
+
+## Motivation and Work Ethic
+
+I am motivated by building systems that solve real-world problems instead of only academic projects.
+
+I enjoy creating applications that automate workflows, improve user productivity, and deliver practical value. I believe in ownership, continuous learning, disciplined execution, and writing clean, maintainable code.
+
+---
+
+## Top 3 Areas I Want to Grow In
+
+1. Building production-grade AI systems that can scale reliably.
+2. Designing intelligent AI agents capable of reasoning, planning, memory, and tool usage.
+3. Learning distributed system design and scalable backend architectures for AI applications.
+
+---
+
+## Challenges and Failures
+
+One of the biggest challenges in my journey was transitioning into software development after joining IIT because programming was completely new to me.
+
+Initially, I often wondered whether I would be able to compete with students who had years of coding experience. Instead of getting discouraged, I focused on learning consistently through online resources, documentation, personal projects, and continuous experimentation.
+
+Another challenge was the study gap during the COVID period. That experience taught me resilience, patience, and the importance of self-learning. Looking back, those challenges helped shape my mindset and made me much more adaptable.
+
+---
+
+## Personality and Work Style
+
+I am naturally calm, practical, and analytical.
+
+When solving problems, I prefer understanding the root cause before jumping to solutions. I enjoy evaluating multiple approaches and selecting the one that balances simplicity, scalability, maintainability, and performance.
+
+Although I am somewhat introverted, I collaborate well with teams and enjoy ownership-driven environments where people learn quickly and take responsibility.
+
+---
+
+## Projects and Practical Work
+
+### AI Voice Bot
+
+Built a production-style conversational voice assistant using FastAPI, LangGraph, OpenAI APIs, Whisper Speech-to-Text, OpenAI Text-to-Speech, ChromaDB, and Retrieval-Augmented Generation.
+
+Key Features:
+- Voice conversations
+- Retrieval-Augmented Generation
+- Conversation memory
+- Speech-to-Text
+- Text-to-Speech
+- FastAPI backend
+- Interactive frontend
+- Production-ready architecture
+
+---
+
+### MyPolicyBot — Agentic RAG Policy Assistant
+
+Built a Retrieval-Augmented Generation chatbot using LangGraph, ChromaDB, OpenRouter, and Python.
+
+Key Features:
+- Agentic workflow
+- Semantic search
+- Vector database
+- Conversation memory
+- Source-grounded responses
+- Modular architecture
+
+---
+
+### Swiggy Data Analysis Dashboard
+
+Built a SQL and Streamlit-based analytics dashboard for food delivery analytics.
+
+Key Features:
+- SQL analysis
+- Interactive dashboards
+- Business insights
+- Data visualization
+
+---
+
+### Generative AI Toolkit
+
+Built a modular toolkit for experimenting with Retrieval-Augmented Generation, document ingestion, embeddings, vector databases, prompt engineering, and hallucination reduction.
+
+---
+
+## Skills Summary
+
+Programming:
+Python, SQL, C++
+
+Artificial Intelligence:
+Machine Learning,
+Deep Learning,
+Generative AI,
+Computer Vision,
+Prompt Engineering,
+Large Language Models,
+Retrieval-Augmented Generation (RAG),
+AI Agents
+
+Frameworks:
+LangChain,
+LangGraph,
+FastAPI,
+Streamlit,
+ChromaDB,
+OpenRouter
+
+Backend:
+REST APIs,
+Pydantic,
+Uvicorn
+
+Tools:
+Git,
+GitHub,
+VS Code
+
+---
+
+## What Makes Me Different
+
+I enjoy solving practical problems instead of simply implementing textbook solutions.
+
+I usually evaluate multiple possible approaches before choosing one. I try to balance simplicity, scalability, performance, and maintainability in everything I build.
+
+Another quality that differentiates me is my willingness to continuously learn unfamiliar technologies and immediately apply them in real projects.
+
+---
+
+## Long-Term Goals
+
+My long-term goal is to become an AI Engineer who builds production-grade intelligent systems capable of solving real-world problems at scale.
+
+I want to specialize in Generative AI, AI Agents, Retrieval-Augmented Generation, and autonomous AI systems while continuously improving my software engineering and system design skills.
+
+---
+
+## Education
+
+Master's — Mathematics and Computing
+Indian Institute of Technology (ISM), Dhanbad
+
+Current CGPA: 7.36
+
+Bachelor's — Mathematics
+
+---
+
+## Short Canonical Interview Answers
+
+### Tell me about yourself
+
+I recently completed my Master's in Mathematics and Computing from IIT (ISM) Dhanbad. During my Master's, I developed a strong interest in Generative AI, AI Agents, Retrieval-Augmented Generation, and backend AI systems. I enjoy building practical AI applications using Python, FastAPI, LangChain, LangGraph, and vector databases. I am looking for opportunities where I can contribute to building production-quality AI products while continuing to learn and grow.
+
+### Why AI?
+
+AI combines reasoning, automation, and software engineering to solve real-world problems at scale. I enjoy understanding how intelligent systems work and building AI applications that deliver practical value to users.
+
+### What is your biggest strength?
+
+My biggest strength is learning new technologies quickly and applying them to build practical, reliable solutions.
+
+### What motivates you?
+
+I am motivated by solving meaningful real-world problems, learning continuously, and building AI systems that improve people's productivity.
+
+### What kind of environment do you prefer?
+
+I enjoy ownership-driven, fast-learning, collaborative environments where people value execution, continuous improvement, and engineering excellence.

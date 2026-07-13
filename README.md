@@ -11,6 +11,13 @@ The assistant is powered by Retrieval-Augmented Generation (RAG), LangGraph, Ope
 **Website:** https://mahesh-voice-bot.onrender.com
 
 ---
+## Example Questions
+
+• Tell me about yourself
+• Why AI?
+• Tell me about your projects
+• What are your strengths?
+• Explain your career journey.
 
 # Features
 

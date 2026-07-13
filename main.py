@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 from fastapi import FastAPI, UploadFile, File, Form
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, FileResponse  # <-- FileResponse yahan add kiya
 from fastapi.staticfiles import StaticFiles
 
 from asr_handler import speech_to_text
@@ -21,9 +21,13 @@ STATIC_DIR = os.path.join(BASE_DIR, "static")
 app.mount("/static", StaticFiles(directory=STATIC_DIR, html=True), name="static")
 
 
+# --- Updated Root Endpoint ---
 @app.get("/")
 async def root():
-    return JSONResponse({"status": "ok", "ui": "/static/index.html"})
+    # static/index.html ka absolute path use karna safer hota hai
+    index_path = os.path.join(STATIC_DIR, "index.html")
+    return FileResponse(index_path)
+# ------------------------------
 
 
 @app.get("/health")
@@ -59,8 +63,6 @@ async def chat_voice(audio: UploadFile = File(...)):
         return JSONResponse({"error": transcript}, status_code=500)
 
     if not transcript:
-        # Silence / hallucinated noise — tell the frontend to just reset,
-        # no LLM call needed.
         return JSONResponse({"transcript": "", "response_text": "", "audio_base64": ""})
 
     reply_text = get_agent_response(transcript)

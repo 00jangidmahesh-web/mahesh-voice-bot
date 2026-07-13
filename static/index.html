@@ -99,7 +99,31 @@
     margin-top: 6px;
   }
 
-  .panel h3 { margin: 0 0 10px; font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
+  .panel h3 {
+    margin: 0 0 10px;
+    font-size: 13px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .clear-btn {
+    background: none;
+    border: 1px solid #263258;
+    color: #a9b8e0;
+    border-radius: 4px;
+    padding: 2px 12px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background 0.2s, color 0.2s;
+  }
+  .clear-btn:hover {
+    background: #1f2942;
+    color: #fff;
+  }
 
   .bubble {
     padding: 12px 14px;
@@ -196,7 +220,10 @@
   </div>
 
   <div class="panel">
-    <h3>Conversation</h3>
+    <h3>
+      <span>Conversation</span>
+      <button class="clear-btn" id="clearChatBtn">Clear</button>
+    </h3>
     <div id="chatLog"></div>
   </div>
 
@@ -623,6 +650,30 @@ textInput.addEventListener("keypress", (e) => {
   if (e.key === "Enter") sendTextMessage();
 });
 
+// ==================== CLEAR CHAT ====================
+document.getElementById('clearChatBtn').addEventListener('click', async () => {
+  try {
+    const res = await fetch('/chat/reset', { method: 'POST' });
+    if (!res.ok) throw new Error(`Reset failed: ${res.status}`);
+    
+    // Clear the chat log
+    chatLog.innerHTML = '';
+    
+    // (Optional) add a system-like message
+    addBubble('assistant', '🗑️ Chat history cleared.');
+    
+    // Reset UI state to idle if needed
+    setState('idle');
+    stopSpeaking();
+    // Stop any recording in progress (safe even if not recording)
+    if (state === 'recording') stopRecording(false);
+    
+  } catch (e) {
+    console.error('Clear error:', e);
+    statusEl.textContent = 'Could not clear chat — try again.';
+  }
+});
+
 // ==================== CLEANUP ====================
 
 window.addEventListener('beforeunload', () => {
@@ -648,5 +699,3 @@ log('Voice Agent v5 ready - Production deployment version');
 </script>
 </body>
 </html>
-
-Project
